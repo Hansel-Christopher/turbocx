@@ -19,6 +19,7 @@ mongoose.connect(dbConfig.url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
+    useMongoClient: true,
     user: "admin",
     pass: "admin@123"
 }).then(() => {
